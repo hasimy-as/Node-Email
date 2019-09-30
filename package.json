@@ -1,0 +1,24 @@
+{
+  "name": "node-email",
+  "version": "1.0.0",
+  "description": "A Node.js application, for testing to send email from localhost.",
+  "main": "server.js",
+  "scripts": {
+    "app": "nodemon -r esm server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hasimy-as/Node-Email.git"
+  },
+  "author": "Hasimy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hasimy-as/Node-Email/issues"
+  },
+  "homepage": "https://github.com/hasimy-as/Node-Email#readme",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "nodemailer": "^6.3.0"
+  }
+}
