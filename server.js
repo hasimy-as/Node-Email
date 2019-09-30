@@ -23,11 +23,11 @@ server.post('/sendEmail', (req, res) => {
     }
   });
   let mailOptions = {
-    from: '"achmad_syeh_27rpl@student.smktelkom-mlg.sch.id"', // sender address
+    from: '"your email"', // sender address
     to: req.body.to, // list of receivers
     subject: req.body.subject, // subject line
     text: req.body.body, // plain text body
-    html: '<b>Email Test</b>' // html body
+    html: '<b>your html body content</b>' // html body
   };
 
   transporter.sendMail(mailOptions, (err, info) => {
