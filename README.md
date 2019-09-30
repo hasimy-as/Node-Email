@@ -9,7 +9,6 @@ A Node.js application, for testing to send email from localhost.
 
 ## Version 1.0.0
 
-Default version.
 Note: This app uses ES6 Syntaxs only.
 
 # Usage
