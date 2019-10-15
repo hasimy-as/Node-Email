@@ -18,12 +18,12 @@ server.post('/sendEmail', (req, res) => {
     host: 'smtp.gmail.com',
     port: 465,
     auth: {
-      user: 'achmad_syeh_27rpl@student.smktelkom-mlg.sch.id',
-      pass: '16maret2003'
+      user: 'your@email.com',
+      pass: 'yourpassword'
     }
   });
   let mailOptions = {
-    from: '"achmad_syeh_27rpl@student.smktelkom-mlg.sch.id"', // sender address
+    from: '"your@email.com"', // sender address
     to: req.body.to, // list of receivers
     subject: req.body.subject, // subject line
     text: req.body.body // plain text body
