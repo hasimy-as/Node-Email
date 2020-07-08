@@ -20,6 +20,9 @@ server.post('/sendEmail', (req, res) => {
     auth: {
       user: 'your@email.com',
       pass: 'yourpassword'
+    },
+    tls: { 
+      rejectUnauthorized: false 
     }
   });
   let mailOptions = {
